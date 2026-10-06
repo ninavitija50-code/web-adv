@@ -1,0 +1,40 @@
+/*ul{
+    list-style-type: circle;
+    list-style-type: square;
+}
+
+ul{
+    list-style-image:url("../img/icone.png") ;
+}
+*/
+ul{
+    list-style-type: none;
+    padding:0px;
+    border:2px solid black
+}
+ul li{
+    padding:8px 16px;
+    border-bottom:1px solid black;
+
+}
+
+table{
+    border-collapse:collapse;
+}
+td,th{
+    border:1px solid white;
+    padding:15px;
+}
+tbody tr:nth-chilod(even){
+    backround-color:rgb(25, 231, 231);
+}
+tbody tr:nth-child(ndd){
+    backround-color:rgb(76, 117, 104);
+
+}
+div{
+    overflow:scroll;
+    backround-color:aquamarine;
+    height:100px;
+    width:100px;
+}
