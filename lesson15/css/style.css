@@ -1,0 +1,27 @@
+div.gallery{
+    margin:10px;
+    border:1px solid black;
+    float:left;
+    width:180px;
+}
+div.gallery img{
+    width:100px;
+    height: 150px;
+    object-fit: cover;
+}
+div.gallery:hover{
+    border: 5px solid rgb(51, 2, 51);
+}
+div.desc{
+    padding:15px;
+    
+}
+.sprite{
+    background:url(../images/image4.jpg) no-repeat;
+}
+.engineers{
+    width:500px;
+    height:500px;
+    display:inline-block;
+    
+}
