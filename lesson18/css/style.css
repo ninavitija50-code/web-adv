@@ -1,0 +1,77 @@
+.containor{
+    display:flex;
+    background-color: rgb(13, 13, 87);
+}
+.containor div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor2 div:nth:nth-child(3){
+order:2;}
+.containor2{
+    display:flex;
+    background-color: rgb(11, 109, 109);
+    flex-direction: column;
+}
+.containor2 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor3{
+    display:flex;
+    background-color: rgb(81, 136, 173);
+    flex-direction: column-reverse;
+}
+.containor3 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor4{
+    display:flex;
+    background-color: rgb(7, 82, 53);
+    flex-direction: row-reverse;
+}
+.containor4 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor4 div:nth-child(3){
+    flex-grow: 4;
+}
+.containor5{
+    display:flex;
+    background-color: rgb(177, 119, 162);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.containor5 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor6{
+    display:flex;
+    background-color: rgb(146, 51, 121);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.containor6 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
+.containor7{
+    display:flex;
+    background-color: rgb(94, 14, 90);
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.containor7 div{
+    background-color: white;
+    margin:10px;
+    padding:20px;
+}
